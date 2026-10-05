@@ -46,13 +46,18 @@ Without a live search tool, the skill tells you plainly that it cannot verify th
 
 ## How to use it
 
-Start a new chat and say what you need. For example:
+1. Invoke the skill, then tell it your research interest, the problem you would like to build a research around, or a draft topic you have in mind, and press enter.
+2. It will take it from there. It asks a few questions about you first (your output, your data, your time and your setting), then suggests topics or checks yours.
+
+For example, you can start with:
 
 - "I have noticed a problem with staff turnover in hospitals in my state and I need a research topic for my master's thesis."
 - "Is this topic researchable? [your topic]"
 - "My supervisor gave me this topic. Help me understand the gap and what data I would need."
 
-Expect it to ask you questions first. If you say "skip the questions", it will carry on and tell you which assumptions it made.
+If you say "skip the questions", it will carry on and tell you which assumptions it made.
+
+**Best used with:** Claude in Chrome. **Also works well with:** Claude Cowork and Claude Code, when a live browser is available. These are the author's recommendations from his own use.
 
 ## Limits
 
