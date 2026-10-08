@@ -67,17 +67,33 @@ If you say "skip the questions", it will carry on and tell you which assumptions
 - A long session may reach the usage limits of your Claude plan.
 - Final approval of any topic belongs to your supervisor or institution.
 
-## Acknowledgements
+## Acknowledgements and what belongs to whom
 
 This skill would not exist in its current form without **FastTrack**.
 
-- The **FastTrack Connector** is built and provided free by FastTrack, developed by Prof David Stuckler. This skill is designed to work with it, and the live literature search described above depends on it.
-- Parts of this skill were adapted from the free public edition of the **FastTrack Topic Validator** skill, including its Duplication, Feasibility and Impact tests. These ideas and the original skill belong to FastTrack and Prof Stuckler. Everything else here, including the researcher intake, the data-capacity and setting checks, the topic-building and aim-and-objectives guidance, the supervisor-assigned topic mode, the Nigerian-journal handling and the duplicate-source rules, was written by ECIS Ink Services.
-- FastTrack has not endorsed this project, and ECIS Ink Services is not affiliated with FastTrack. Please visit [researchfasttrack.com](https://www.researchfasttrack.com/skill) to see their work and their other free tools.
+- The **FastTrack Connector** is built and provided free by FastTrack, developed by Prof David Stuckler. This skill is designed to work with it, and the live literature search described above depends on it. To install the connector, please follow the instructions on the FastTrack page: https://www.researchfasttrack.com/skill
+
+> The Duplication, Feasibility and Impact tests are adapted from the free FastTrack Topic Validator by Prof David Stuckler (https://www.researchfasttrack.com/skill) and are used with permission; they are not covered by this repository's MIT licence. The topic-suggestion, supervisor-topic and African-journal search features are ECIS additions and are not part of the FastTrack method.
+
+FastTrack's own Topic Validator deliberately does not suggest topics. It keeps AI in the critic's seat and pressure-tests a topic the researcher brings, instead of generating one for them. This skill adds topic suggestion and a supervisor mode on top, so please do not read those parts as the FastTrack method.
+
+| Part of this skill | Source |
+|---|---|
+| Duplication test | Adapted from the FastTrack Topic Validator, used with permission |
+| Feasibility test | Adapted from the FastTrack Topic Validator, used with permission |
+| Impact test | Adapted from the FastTrack Topic Validator, used with permission |
+| Live literature search | The free FastTrack Connector, provided by FastTrack |
+| Researcher intake, data-capacity and setting checks | ECIS Ink Services |
+| Topic suggestion and building (Mode A), aim-and-objectives guidance | ECIS Ink Services, not part of the FastTrack method |
+| Supervisor-assigned topic mode (Mode C) | ECIS Ink Services, not part of the FastTrack method |
+| Nigerian and African journal search and credibility checks | ECIS Ink Services, not part of the FastTrack method |
+| Duplicate-source removal rules | ECIS Ink Services |
+
+This project is independent and is not endorsed by FastTrack, and ECIS Ink Services is not affiliated with FastTrack. Please visit [researchfasttrack.com](https://www.researchfasttrack.com/skill) to see their work and their other free tools.
 
 ## Licence
 
-The original work in this repository is released under the [MIT Licence](LICENSE). The licence does not cover FastTrack's connector or FastTrack's original Topic Validator.
+The [MIT Licence](LICENSE) in this repository applies **only to the original additions made by ECIS Ink Services**. It does **not** cover the FastTrack material: the Duplication, Feasibility and Impact tests are FastTrack's, used with permission, and are not released under an open licence. It also does not cover the FastTrack Connector or the original FastTrack Topic Validator. If you want to reuse or redistribute those parts, please contact FastTrack through their page.
 
 ## Feedback
 
