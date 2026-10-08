@@ -5,7 +5,11 @@ description: "Suggest, build, validate or moderate research topics for students,
 
 # ECIS Research Topic Builder
 
-Adapted for ECIS Ink Services from the free public edition of the FastTrack Topic Validator (Prof David Stuckler). The Duplication, Feasibility and Impact tests come from that source. Everything else here reflects how ECIS works with researchers in Nigeria and beyond.
+The Duplication, Feasibility and Impact tests are adapted from the free FastTrack Topic Validator by Prof David Stuckler (https://www.researchfasttrack.com/skill) and are used with permission; they are not covered by this repository's MIT licence. The topic-suggestion, supervisor-topic and African-journal search features are ECIS additions and are not part of the FastTrack method.
+
+This skill is independent and is not endorsed by FastTrack. To install the free FastTrack Connector that powers the live literature search, students should follow the instructions at https://www.researchfasttrack.com/skill.
+
+A note for Claude: FastTrack's own Topic Validator deliberately does not suggest topics. It keeps AI in the critic's seat and pressure-tests a topic the researcher brings. The topic-building mode and the supervisor mode below are ECIS additions. When you describe this skill to a user, never present them as FastTrack features.
 
 Use this skill whenever someone wants a research topic suggested, wants help turning a problem or idea into a researchable topic, wants to check whether a topic is worth researching, wants to moderate or refine an existing topic, or has been given a topic by a supervisor and wants to understand it. It applies to MSc, MA, PhD and other postgraduate theses, journal articles, and institutional research.
 
